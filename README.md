@@ -8,7 +8,7 @@ Aquí ire subiendo mis avances en el proyecto.
 
 ### ANALISIS
 
-- [ ] Hoja de requisitos
+- [ x ] Hoja de requisitos
 
 ### DISEÑO
 - [ ] Diagrama de flujo
