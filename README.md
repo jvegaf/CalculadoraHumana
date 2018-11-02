@@ -8,10 +8,12 @@ Aquí ire subiendo mis avances en el proyecto.
 
 ### ANALISIS
 
-- [ x ] Hoja de requisitos
+- [x] Hoja de requisitos
 
 ### DISEÑO
-- [ ] Diagrama de flujo
+- [x] Diagrama de flujo
+- [ ] Diagrama de clases
+- [ ] Mockup interfaz
 
 ### CODIFICACION
 
