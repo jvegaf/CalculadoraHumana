@@ -13,7 +13,7 @@ Aquí ire subiendo mis avances en el proyecto.
 ### DISEÑO
 - [x] Diagrama de flujo
 - [ ] Diagrama de clases
-- [ ] Mockup interfaz
+- [x] Mockup interfaz
 
 ### CODIFICACION
 
