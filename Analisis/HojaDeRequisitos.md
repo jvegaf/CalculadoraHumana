@@ -9,4 +9,4 @@
 
 ## REQUISITOS NO FUNCIONALES ##
 
-+ Implementacion en Java con interfaz grafica con el framework Swing
++ Implementacion en Java con interfaz grafica con el framework JavaFX
