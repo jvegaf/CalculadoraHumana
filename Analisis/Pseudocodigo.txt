@@ -1,0 +1,33 @@
+Inicio del Juego
+Elegir Nivel
+Pulsar Boton Jugar
+Tiempo = 30 segundos
+Empezar cuenta atras
+hacer-mientras Tiempo > 0
+	hacer-mientras operaciones < 7
+		si nivel = Facil
+			random numero A entre 1 y 9
+			random numero B entre 1 y 9
+			random operacion
+		fin-si
+		si nivel = Medio
+			random numero A entre 1 y 50
+			random numero B entre 1 y 50
+			random operacion
+		fin-si
+		Si nivel = Dificil
+			random numero A entre 1 y 100
+			random numero B entre 1 y 100
+			random operacion
+		fin-si
+		Visualizar operacion
+		Leer resultado
+		si resultado = resultado correcto 
+			operaciones=operaciones+1
+		fin-si
+	Fin-mientras
+	Visualizar Ganaste
+	Fin del Juego
+Fin-mientras
+Visualizar Perdiste
+Fin del Juego
