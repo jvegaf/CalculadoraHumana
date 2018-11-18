@@ -9,15 +9,17 @@ Aquí ire subiendo mis avances en el proyecto.
 ### ANALISIS
 
 - [x] Hoja de requisitos
-- [x] Diagrama de flujo
-- [x] Pseudocodigo
 
 ### DISEÑO
 
-- [ ] Diagrama de clases
+- [x] Diagrama de flujo
+- [x] Pseudocodigo
+- [x] Diagrama de clases
 - [x] Mockup interfaz
 
 ### CODIFICACION
+
+- [ ] Completada.
 
 ### PRUEBAS
 
