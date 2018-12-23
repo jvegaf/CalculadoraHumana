@@ -1,7 +1,11 @@
+package test;
+
+import main.CHOperation;
 import org.junit.Assert;
 import org.junit.Test;
 
 public class CHOperationTest {
+
     @Test
     public void shouldCreateARandomNumber() {
         CHOperation operation = new CHOperation();
