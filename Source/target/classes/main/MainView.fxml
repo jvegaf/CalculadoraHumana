@@ -8,7 +8,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="482.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="482.0" maxWidth="600.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="482.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <Button layoutX="210.0" layoutY="281.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="174.0" text="Comenzar Partida" />
       <ComboBox layoutX="29.0" layoutY="27.0" prefWidth="150.0" />
