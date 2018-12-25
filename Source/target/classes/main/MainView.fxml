@@ -8,17 +8,17 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="482.0" maxWidth="600.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="482.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="482.0" maxWidth="600.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="482.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.MainViewController">
    <children>
-      <Button layoutX="210.0" layoutY="281.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="174.0" text="Comenzar Partida" />
-      <ComboBox layoutX="29.0" layoutY="27.0" prefWidth="150.0" />
+      <Button fx:id="startButton" layoutX="210.0" layoutY="281.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="174.0" text="Comenzar Partida" />
+      <ComboBox fx:id="levelCombo" layoutX="29.0" layoutY="27.0" prefWidth="150.0" />
       <Label layoutX="461.0" layoutY="27.0" text="Tiempo Restante" />
-      <Label alignment="CENTER" layoutX="449.0" layoutY="54.0" text="Label" textAlignment="CENTER">
+      <Label fx:id="timeLabel" alignment="CENTER" layoutX="482.0" layoutY="54.0" text="" textAlignment="CENTER">
          <font>
-            <Font size="50.0" />
+            <Font name="System Bold" size="50.0" />
          </font>
       </Label>
-      <Label alignment="CENTER" layoutX="213.0" layoutY="140.0" prefHeight="60.0" prefWidth="174.0" text="Label" textAlignment="CENTER">
+      <Label id="operationLabel" alignment="CENTER" layoutX="213.0" layoutY="140.0" prefHeight="60.0" prefWidth="174.0" text="Label" textAlignment="CENTER">
          <font>
             <Font size="48.0" />
          </font>
@@ -28,9 +28,8 @@
             <Font size="22.0" />
          </font>
       </Label>
-      <TextField layoutX="213.0" layoutY="241.0" />
+      <TextField id="resultTextField" layoutX="213.0" layoutY="241.0" />
       <Label layoutX="29.0" layoutY="356.0" text="Instrucciones" />
       <TextArea layoutX="25.0" layoutY="380.0" prefHeight="93.0" prefWidth="555.0" text="Elige nivel de dificultad y pulsa el boton de comenzar partida. Intrduce con el teclado&#10;el resultado de la operacion y pulsa la tecla Intro para enviar la respuesta. Si la &#10;respuesta es acertada cambiará la operacion, en caso contrario intentalo las veces &#10;que necesites dentro del tiempo de juego.&#10;" />
-      <Label layoutX="213.0" layoutY="36.0" text="Label" />
    </children>
 </AnchorPane>
