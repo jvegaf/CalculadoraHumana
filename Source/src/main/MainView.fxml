@@ -18,7 +18,7 @@
             <Font name="System Bold" size="50.0" />
          </font>
       </Label>
-      <Label fx:id="operationLabel" alignment="CENTER" layoutX="213.0" layoutY="140.0" prefHeight="60.0" prefWidth="174.0" text="Label" textAlignment="CENTER">
+      <Label fx:id="operationLabel" alignment="CENTER" layoutX="213.0" layoutY="140.0" prefHeight="60.0" prefWidth="174.0" text="" textAlignment="CENTER">
          <font>
             <Font size="48.0" />
          </font>
@@ -28,7 +28,7 @@
             <Font size="22.0" />
          </font>
       </Label>
-      <TextField id="resultTextField" layoutX="213.0" layoutY="241.0" />
+      <TextField fx:id="resultTextField" layoutX="213.0" layoutY="241.0" />
       <Label layoutX="29.0" layoutY="356.0" text="Instrucciones" />
       <TextArea layoutX="25.0" layoutY="380.0" prefHeight="93.0" prefWidth="555.0" text="Elige nivel de dificultad y pulsa el boton de comenzar partida. Intrduce con el teclado&#10;el resultado de la operacion y pulsa la tecla Intro para enviar la respuesta. Si la &#10;respuesta es acertada cambiará la operacion, en caso contrario intentalo las veces &#10;que necesites dentro del tiempo de juego.&#10;" />
    </children>
